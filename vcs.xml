@@ -6,6 +6,10 @@
           <option name="url" value="http://gitlab.karrytech.com" />
           <option name="userName" value="cuikaihui" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://github.com" />
+          <option name="userName" value="987992518@qq.com" />
+        </UrlAndUserName>
       </list>
     </option>
   </component>
