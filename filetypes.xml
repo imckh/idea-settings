@@ -3,6 +3,8 @@
     <extensionMap>
       <mapping ext="klib" type="ARCHIVE" />
       <mapping pattern="cd" type="PLAIN_TEXT" />
+      <mapping ext="p12" type="PLAIN_TEXT" />
+      <removed_mapping pattern="flow-deda-QueryToPayRegList.xml" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>

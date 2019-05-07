@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flow SYSTEM "../schema/flow.dtd" >
+
+<flow id="${NAME}">
+    <!-- 打印入参 -->
+    <logger-payload/>
+
+     <!--XML解析 -->
+    <xml-parser>
+        <![CDATA[
+[
+        { "key":"PatientID",   "path":"/Request/PatientID",    "require":true, "message":"请设置患者id!"},
+        { "key":"TransCode",   "path":"/Request/TransCode"},
+        { "key":"UserID",   "path":"/Request/UserID"}
+]
+		]]>
+    </xml-parser>
+
+    <!-- 打印属性 -->
+    <logger-properties />
+
+    <!-- 调用SQL -->
+    <run-sql name="sql-${NAME}" />
+
+    <!-- 判断结果集是否过大 -->
+##    <if when="${isNotEmpty(payload)}">
+##        <if when="${payload.~size &gt; 100}">
+##            <throw-exception error-code="BIG_RECORDS"
+##                             error-message="结果集过大" />
+##        </if>
+##    </if>
+
+    <!-- 打印SQL结果 -->
+    <logger-payload />
+
+    <!-- 组装出参 -->
+    <template name="tpl-sql-${NAME}-success.xml" />
+
+    <!-- 异常流程 -->
+    <exception>
+        <!-- 组装异常出参 -->
+        <template name="tpl-sql-${NAME}-fail.xml" />
+    </exception>
+</flow>
