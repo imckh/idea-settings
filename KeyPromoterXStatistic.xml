@@ -22,7 +22,7 @@
           <IdeaActionID>Graph.ApplyCurrentLayout</IdeaActionID>
           <ShortCut>'F5'</ShortCut>
           <Description>Apply Current Layout</Description>
-          <Count>17</Count>
+          <Count>22</Count>
         </Item>
       </Statistic>
       <Statistic Action="Build Project">
@@ -222,7 +222,7 @@
           <IdeaActionID>RunClass</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F10'</ShortCut>
           <Description>Run 'Client.main()'</Description>
-          <Count>13</Count>
+          <Count>14</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'Hl7FormatTest.main()'">
@@ -278,7 +278,7 @@
           <IdeaActionID>ShowUmlDiagram</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+U'</ShortCut>
           <Description>Show Diagram...</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Step Over">
