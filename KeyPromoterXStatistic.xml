@@ -78,7 +78,7 @@
           <IdeaActionID>ActivateDebugToolWindow</IdeaActionID>
           <ShortCut>'Alt+5'</ShortCut>
           <Description>Debug</Description>
-          <Count>10</Count>
+          <Count>11</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug 'KtinApplication'">
@@ -86,7 +86,15 @@
           <IdeaActionID>Debug</IdeaActionID>
           <ShortCut>'Shift+F9'</ShortCut>
           <Description>Debug 'KtinApplication'</Description>
-          <Count>29</Count>
+          <Count>31</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Debug 'Test'">
+        <Item>
+          <IdeaActionID>Debug</IdeaActionID>
+          <ShortCut>'Shift+F9'</ShortCut>
+          <Description>Debug 'Test'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Declaration">
@@ -94,7 +102,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>72</Count>
+          <Count>73</Count>
         </Item>
       </Statistic>
       <Statistic Action="Expand All">
@@ -174,7 +182,15 @@
           <IdeaActionID>Rerun</IdeaActionID>
           <ShortCut>'Ctrl+F5'</ShortCut>
           <Description>Rerun 'KtinApplication'</Description>
-          <Count>63</Count>
+          <Count>64</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'Test'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+F5'</ShortCut>
+          <Description>Rerun 'Test'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'XMLUtil'">
@@ -215,6 +231,14 @@
           <ShortCut>'Ctrl+Shift+F10'</ShortCut>
           <Description>Run 'Hl7FormatTest.main()'</Description>
           <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'Test.main()'">
+        <Item>
+          <IdeaActionID>RunClass</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F10'</ShortCut>
+          <Description>Run 'Test.main()'</Description>
+          <Count>6</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'WSTest.main()'">
@@ -270,7 +294,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'KtinApplication'</Description>
-          <Count>16</Count>
+          <Count>17</Count>
         </Item>
       </Statistic>
       <Statistic Action="Structure">
