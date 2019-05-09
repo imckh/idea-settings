@@ -110,7 +110,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>91</Count>
+          <Count>93</Count>
         </Item>
       </Statistic>
       <Statistic Action="Expand All">
@@ -201,6 +201,14 @@
           <Count>14</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Rerun 'HelloControllerTest.hello'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+F5'</ShortCut>
+          <Description>Rerun 'HelloControllerTest.hello'</Description>
+          <Count>6</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Rerun 'KtinApplication'">
         <Item>
           <IdeaActionID>Rerun</IdeaActionID>
@@ -238,7 +246,7 @@
           <IdeaActionID>Resume</IdeaActionID>
           <ShortCut>'F9'</ShortCut>
           <Description>Resume Program</Description>
-          <Count>45</Count>
+          <Count>46</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'Client.main()'">
@@ -358,7 +366,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>24</Count>
+          <Count>26</Count>
         </Item>
       </Statistic>
       <Statistic Action="Update Project...">
