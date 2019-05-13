@@ -94,7 +94,7 @@
           <IdeaActionID>Debug</IdeaActionID>
           <ShortCut>'Shift+F9'</ShortCut>
           <Description>Debug 'KtinApplication'</Description>
-          <Count>36</Count>
+          <Count>37</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug 'Test'">
@@ -214,7 +214,7 @@
           <IdeaActionID>Rerun</IdeaActionID>
           <ShortCut>'Ctrl+F5'</ShortCut>
           <Description>Rerun 'KtinApplication'</Description>
-          <Count>64</Count>
+          <Count>65</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'Test'">
