@@ -2,7 +2,7 @@
   <component name="LogHighlightingSettings">
     <Patterns>
       <list>
-        <LogHighlightingPattern pattern="^.*(error|ERROR).*$" action="HIGHLIGHT_LINE" fg="-65536" bold="true" stripe="true" />
+        <LogHighlightingPattern pattern="^.*(error|ERROR|ERR).*$" action="HIGHLIGHT_LINE" fg="-65536" bold="true" stripe="true" />
         <LogHighlightingPattern pattern="^.*(warn|WARN)(ing|ING)?.*$" action="HIGHLIGHT_LINE" fg="-22016" bold="true" />
         <LogHighlightingPattern pattern="^.*(INFO|info).*$" action="HIGHLIGHT_LINE" fg="-12599489" />
       </list>
